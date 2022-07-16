@@ -2,6 +2,8 @@ body {
     background-color: #49C6E5;
     font-family: 'Open Sans', sans-serif;
     color: #fffbfa;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 #content {
@@ -13,4 +15,19 @@ body {
 img {
     width: 672px;
     height: 504px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    font-weight: 800;
+}
+
+button {
+    background-color: #00bd9d;
+    border-radius: 10%;
 }
