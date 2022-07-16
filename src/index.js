@@ -20,6 +20,7 @@ header.appendChild(btn3);
 
 
 pageLoad();
+
 btn.addEventListener('click', () => {
     const content = document.querySelector('#content');
     content.innerHTML = "";
@@ -32,11 +33,10 @@ btn2.addEventListener('click', () => {
     content.innerHTML = "";
     menuTab();
 })
-// menuTab();
 
-// contactTab();
-// btn3.addEventListener('click', () => {
-//     const content = document.querySelector('#content');
-//     content.innerHTML = "";
-//     contactTab();
-// })
+
+btn3.addEventListener('click', () => {
+    const content = document.querySelector('#content');
+    content.innerHTML = "";
+    contactTab();
+})

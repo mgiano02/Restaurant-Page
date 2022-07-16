@@ -1,17 +1,18 @@
 export default function menuTab() {
+    const content = document.querySelector('#content');
     const menu = document.createElement('div');
+
+    content.appendChild(menu);
     const btn = document.createElement('button');
     btn.innerText = 'Menu';
     const h1 = document.createElement('h1');
     h1.innerText = 'Menu';
-    // const h2 = document.createElement('h2');
-    // h2.innerText = 'Flavors';
     
     const firstDiv = document.createElement('div');
     menu.appendChild(firstDiv);
     const firstItem = document.createElement('h5');
     firstItem.innerText = 'Cones';
-    firstItem.appendChild(firstDiv);
+    firstDiv.appendChild(firstItem);
     const p = document.createElement('p');
     p.innerText = 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum';
     firstDiv.appendChild(p);

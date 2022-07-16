@@ -1,5 +1,8 @@
 export default function contactTab() {
+    const content = document.querySelector('#content');
     const contact = document.createElement('div');
+    
+    content.appendChild(contact);
     const btn = document.createElement('button');
     btn.innerText = 'Contact Us';
     const h1 = document.createElement('h1');
