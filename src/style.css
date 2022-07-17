@@ -1,5 +1,5 @@
 body {
-    background-color: #49C6E5;
+    background-color: #4ccbe7;
     font-family: 'Open Sans', sans-serif;
     color: #fffbfa;
     display: flex;
@@ -10,6 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 img {
@@ -21,13 +23,47 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #00bd75;
+    border: 1px solid #8bd7d2;
+    border-radius: 50px;
 }
 
 p {
-    font-weight: 800;
+    font-weight: 900;
 }
 
 button {
-    background-color: #00bd9d;
-    border-radius: 10%;
+    background-color: #49c6e5;
+    color: #fffbfa;
+    border-radius: 5%;
+    margin: 15px;
+    padding: 2px;;
+    font-size: 20px;
+}
+
+.divFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #fffbfa;
+}
+
+.divFlex:last-child {
+    border: none;
+}
+
+#imgCones {
+    max-width: 75%;
+    height: auto;
+}
+
+#imgBowls {
+    max-width: 50%;
+    height: auto;
+}
+
+#imgFloats {
+    max-width: 50%;
+    height: auto;
 }

@@ -9,4 +9,7 @@ export default function pageLoad() {
     const p = document.createElement('p');
     p.innerText = 'The coolest bar in town! We offer from a wide variety of 36 flavors...or 36 different ways to beat the heat this summer!';
     content.appendChild(p);
+    const p2 = document.createElement('p');
+    p2.innerText = 'Come hang out with us after 7pm for half price double scoops!'
+    content.appendChild(p2);
 }
